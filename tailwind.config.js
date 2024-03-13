@@ -13,14 +13,16 @@ module.exports = {
     {
       fontFamily: {
         open: ['Open Sans', 'sans-serif'],
-        gemunu: ['Gemunu Libre', 'sans-serif']
+        gemunu: ['Gemunu Libre', 'sans-serif'],
+        montserrat :['Montserrat', 'sans-serif']
       },
 
       colors: {
-        'my-red': '#BC1A45',
-        'my-melon': '#FFD369',
-        'my-grey': '#DDDDDD',
+        
+        'my-fontcolor': '#716F79',
+        'my-grey': '#E0E0E0',
         'my-white': '#F7F7F7',
+        'my-blue':'#AEBDF0',
         
       },
     },

@@ -1,5 +1,6 @@
-<!doctype html>
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -8,6 +9,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -20,32 +25,58 @@
   <link href="./css/style.css" rel="stylesheet">
 </head>
 
-<body>
-  <header class="bg-black py-6 lg:py6 text-gega-grey font-gemunu uppercase flex items-center justify-between">
-    <div class="container flex items-center justify-between space-x-16">
-      <a href="#" class="text-5xl font-bold text-my-white">LOGO</a>
-      <nav class="flex justify-between flex-1">
-        <div class="flex items-center text-lg space-x-8 m-auto">
-          <a href="#" class="hover:text-my-melon text-my-white transition duration-500">Home</a>
-          <a href="#" class="hover:text-my-melon text-my-white transition duration-500">Movies</a>
-          <a href="#" class="hover:text-my-melon text-my-white transition duration-500">News</a>
-          <a href="#" class="hover:text-my-melon text-my-white transition duration-500">Abaout</a>
+<body class="bg-my-grey">
+
+
+  <header class="bg-my-blue py-6 text-gega-grey font-montserrat uppercase flex items-center justify-between">
+    <div class="container flex flex-col lg:flex-row items-center justify-between space-x-16">
+      <a href="#" class="text-3xl font-bold text-black">LOGO</a>
+      <nav class="lg:flex flex-1">
+        <div class="lg:flex items-center text-lg space-x-8 m-auto">
+          <a href="#" class="hover:text-black text-my-fontcolor transition duration-500">Home</a>
+          <a href="#" class="hover:text-black text-my-fontcolor transition duration-500">About</a>
+          <a href="#" class="hover:text-black text-my-fontcolor transition duration-500">News</a>
+          <a href="#" class="hover:text-black text-my-fontcolor transition duration-500">Contact</a>
         </div>
-        <div class="flex items-center space-x-8">
+        <div class="lg:flex items-center space-x-8 mt-4 lg:mt-0">
           <form>
             <div class="border-r px-4 mx-4 py-1 border-my-red">
               <input type="text" placeholder="Search Here." class="bg-my-white placeholder:align-top p-2">
-
             </div>
           </form>
           <div class="bg-my-red p-3 text-sm">
-            <a href="#" class="hover:text-black text-my-white transition duration-500">Giriş Yap</a>
+            <a href="#" class="hover:text-black text-my-white transition duration-500">Giriş Yap </a>
             <a href="#" class="hover:text-black text-my-white transition duration-500">Kaydol</a>
           </div>
         </div>
       </nav>
     </div>
   </header>
+
+
+  <section class="px-4 lg:px-8 mt-8 lg:mt-16 flex flex-col lg:flex-row items-center justify-between">
+    <div class="lg:w-1/5 h-80 bg-my-blue mb-4 lg:mr-4 cursor-pointer ">
+      <ul>
+        <li class="mt-3 lg:mt-0 text-center hover:text-my-fontcolor text-black transition duration-500 text-2xl font-open">
+          Categories</li>
+        <li class="mt-2 ml-3 text-lg font-open hover:border-b-2 duration-500 border-my-fontcolor ">Food</li>
+        <li class="mt-2 ml-3 text-lg font-open hover:border-b-2 duration-500 border-my-fontcolor">Technology</li>
+        <li class="mt-2 ml-3 text-lg font-open hover:border-b-2 duration-500 border-my-fontcolor">Music</li>
+        <li class="mt-2 ml-3 text-lg font-open hover:border-b-2 duration-500 border-my-fontcolor">Artist&People</li>
+      </ul>
+    </div>
+    <div class="lg:w-4/5 h-auto bg-white p-3">
+      <h1 class="text-2xl lg:text-4xl text-center lg:text-left text-my-fontcolor mt-4 lg:mt-0">"The First Step to the Moon:
+        Human Space Exploration"</h1>
+      <div class="flex flex-col lg:flex-row items-center lg:items-start justify-between">
+        <img src="images/space-station-60615_640.jpg" alt="Space Station" class="w-full lg:w-60 h-56 mt-4 lg:mt-0 object-cover">
+        <p class="mt-4 lg:mt-0 ml-0 lg:ml-4">The iconic moment of humanity's venture beyond Earth unfolded on July 20, 1969, with the Apollo 11 mission marking the first successful moon landing. Led by astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins, this historic journey showcased the triumph of human determination and technological innovation. As Neil Armstrong descended the lunar module's ladder, his immortal words, "That's one small step for [a] man, one giant leap for mankind," echoed worldwide. This unprecedented achievement not only solidified America's prowess in space exploration but also inspired generations to dream beyond the confines of our planet. The mission's success represented a pivotal chapter in the ongoing saga of human curiosity and exploration.</p>
+      </div>
+    </div>
+  </section>
+
 </body>
 
 </html>
+
+
